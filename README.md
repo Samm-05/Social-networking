@@ -1,4 +1,4 @@
-# Social-networking | Team Project Repository
+# Campus Connect | Team Project Repository
 
 The final implementation of this project uses Flask (Python) for the backend and HTML, CSS, and Vanilla JavaScript for the frontend, communicating via REST API endpoints.
 During initial development, React was explored but later removed and is not part of the final codebase.
@@ -123,8 +123,8 @@ User creates posts & browses feed
 
 ## 🤝 Contributors
 
-- Lavanya Vaidya –   
-- Samyak Mahatme –   
-- Ashutosh Nanoti –   
-- Omkar Jadhao –  
-- Piyush Patle –   
+- Lavanya Vaidya   
+- Samyak Mahatme    
+- Ashutosh Nanoti    
+- Omkar Jadhao   
+- Piyush Patle    
