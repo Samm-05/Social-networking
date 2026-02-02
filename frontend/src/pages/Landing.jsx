@@ -1,13 +1,17 @@
 import "../styles/landing.css";
 
-export default function Landing() {
+export default function Landing({ onJoin }) {
   return (
     <div className="app">
 
       {/* NAVBAR */}
       <nav className="navbar">
         <div className="logo">CampusConnect</div>
-        <button className="nav-btn">Join Now</button>
+
+        {/* ✅ JOIN NOW BUTTON CONNECTED */}
+        <button className="nav-btn" onClick={onJoin}>
+          Join Now
+        </button>
       </nav>
 
       {/* HERO (CENTERED) */}
@@ -28,8 +32,14 @@ export default function Landing() {
         </p>
 
         <div className="hero-actions fade-in-delay-2">
-          <button className="btn-primary">Get Started</button>
-          <button className="btn-outline">Learn More</button>
+          {/* ✅ ALSO CONNECT THIS BUTTON */}
+          <button className="btn-primary" onClick={onJoin}>
+            Get Started
+          </button>
+
+          <button className="btn-outline">
+            Learn More
+          </button>
         </div>
 
         <div className="hero-glow"></div>
@@ -42,7 +52,7 @@ export default function Landing() {
         <div className="features-grid">
           <div className="feature-card">
             🔐
-            <h3>College‑Only Access</h3>
+            <h3>College-Only Access</h3>
             <p>Users can join only using verified college email or ID.</p>
           </div>
 
@@ -61,7 +71,7 @@ export default function Landing() {
           <div className="feature-card">
             💬
             <h3>Private Chat</h3>
-            <p>One‑to‑one chat enabled only after mutual connection.</p>
+            <p>One-to-one chat enabled only after mutual connection.</p>
           </div>
 
           <div className="feature-card">
@@ -80,7 +90,7 @@ export default function Landing() {
 
       {/* FOOTER */}
       <footer className="footer">
-        © 2026 CampusConnect · College‑Only Social Network
+        © 2026 CampusConnect · College-Only Social Network
       </footer>
 
     </div>

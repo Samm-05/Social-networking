@@ -1,0 +1,45 @@
+.app-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 30px;
+  background: #120a2a;
+  color: white;
+}
+
+.nav-links button {
+  margin-left: 12px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.page {
+  padding: 30px;
+  color: white;
+}
+
+.card {
+  background: rgba(255,255,255,0.08);
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 16px;
+}
+
+button {
+  background: #7c3aed;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: white;
+  cursor: pointer;
+}
+
+button.danger {
+  background: #dc2626;
+  margin-left: 10px;
+}
+
+.muted {
+  color: #9ca3af;
+}
